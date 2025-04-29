@@ -54,7 +54,6 @@ const App = () => {
 
   const increment = () => setCount(count + 1);
   
-  // Modified decrement function to prevent negative numbers
   const decrement = () => {
     if (count > 0) {
       setCount(count - 1);
@@ -111,7 +110,7 @@ const App = () => {
             <button 
               onClick={decrement} 
               className="button button-decrease"
-              disabled={count === 0} // Disable button when count is 0
+              disabled={count === 0} 
             >
               -
             </button>
