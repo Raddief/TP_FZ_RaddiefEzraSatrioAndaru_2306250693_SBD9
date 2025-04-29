@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import ZZZLogo from './assets/zenlogo.SVG'
+import ZZZLogo from './assets/zenlogo.svg'
 import TwitterIcon from './assets/twitterlogo.svg'
 import InstagramIcon from './assets/instagramlogo.svg'
 import YoutubeIcon from './assets/youtubelogo.svg'
